@@ -1,4 +1,12 @@
-from flask import Flask , render_template
+import mysql.connector as mysql
+from flask import Flask, render_template
+
+'''mysql.connect(host='localhost', 
+            database='database', 
+            user='root', 
+            password='your password') '''
+
+
 
 app = Flask(__name__)
 
